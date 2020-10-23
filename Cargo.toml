@@ -1,0 +1,20 @@
+[package]
+name = "gen-z"
+version = "0.1.0"
+authors = ["Zoey <Dessix@Dessix.net>"]
+description = "Macro-free stream construction through asynchronous generators via an awaitable sender"
+license = "MIT OR Apache-2.0"
+edition = "2018"
+categories = ["asynchronous"]
+keywords = ["future", "async", "await", "generator", "yield"]
+repository = "https://github.com/Dessix/gen-z-rs"
+readme = "README.md"
+include = [
+    "Cargo.toml",
+    "LICENSE*",
+    "README.md",
+    "src/*.rs",
+]
+
+[dependencies]
+futures = "~0.3.6"

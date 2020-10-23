@@ -1,0 +1,9 @@
+/.cargo
+/.env.local
+/.env.*.local
+
+# This is a library, ignore lockfiles
+/Cargo.lock
+
+# Generated outputs
+/target
